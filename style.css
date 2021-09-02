@@ -1,12 +1,3 @@
-/*
-  Template Name: SpicyX
-  Author : MarkUps
-  Author URI: http://www.markups.io/
-  Version: 1.0
-  Tags: light, white, restaurant, multi page, landing page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
-
-*/
-
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
@@ -15,8 +6,8 @@
 #SLIDER SECTION
 #ABOUT US SECTION
 #COUNTER SECTION
-#MENU ITEM SECTION
-#RESERVATION SECTION
+#DOUBLETS SECTION
+#TRIVIA SECTION
 #GALLERY SECTION
 #TESTIMONIAL SECTION
 #SUBSCRIPTION SECTION
@@ -403,6 +394,7 @@ img {
   margin-top: 20px;
   padding-top: 30px;
   width: 100%;
+  font-size: 20px;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left p {
   line-height: 24px;
@@ -424,8 +416,8 @@ img {
   display: inline;
   float: left;
   margin-top: 20px;
-  padding-top: 30px;
   width: 100%;
+  box-shadow: 0px 10px 10px 0px black
 }
 .mu-title {
   display: inline;
@@ -443,6 +435,9 @@ img {
   color: #000;
   font-size: 35px;
   margin-bottom: 5px;
+  padding-bottom: 5px;
+  width: auto;
+  border-bottom: 2px solid #c1a35f;
 }
 .mu-title i {
   font-size: 18px;
@@ -450,121 +445,56 @@ img {
 .mu-title .mu-title-bar {
   position: relative;
 }
-.mu-title .mu-title-bar::before {
-  content: "";
-  height: 2px;
-  left: 8px;
-  position: absolute;
-  top: 10px;
-  width: 100px;
-}
-.mu-title .mu-title-bar::after {
-  content: "";
-  height: 2px;
-  right: 27px;
-  position: absolute;
-  top: 10px;
-  width: 100px;
-}
 
 /*==================
- COUNTER SECTION
+ BREAK SECTION
 ====================*/
-#mu-counter {
+#mu-break {
   background-attachment: fixed;
-  background-image: url("assets/img/counter-bg.jpg");
+  background-image: url("assets/img/break-bg.jpg");
   background-size: cover;
   display: inline;
   float: left;
   width: 100%;
 }
-#mu-counter .mu-counter-overlay {
+#mu-break .mu-break-overlay {
   background-color: rgba(0, 0, 0, 0.8);
   display: inline;
-  padding: 100px 0;
+  padding: 50px 0;
   float: left;
   width: 100%;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav {
-  display: inline-block;
-  width: 100%;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li {
-  display: inline-block;
-  border-right: 1px solid #ccc;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li:last-child {
-  border-right: none;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li .mu-single-counter {
-  color: #fff;
-  display: inline;
-  float: left;
-  text-align: center;
-  width: 100%;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li .mu-single-counter span {
-  font-family: "Tangerine", cursive;
-  font-size: 40px;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li .mu-single-counter h3 {
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 40px;
-  margin-bottom: 15px;
-  margin-top: 0;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li .mu-single-counter h3 span {
-  font-family: "Open Sans", sans-serif;
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 40px;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li .mu-single-counter h3 sup {
-  font-weight: normal;
-  display: inline-block;
-  font-size: 35px;
-}
-#mu-counter .mu-counter-overlay .mu-counter-area .mu-counter-nav li .mu-single-counter p {
-  font-size: 18px;
-  letter-spacing: 1.5px;
 }
 
 /*==================
- MENU ITEM SECTION
+ DOUBLETS SECTION
 ====================*/
-#mu-restaurant-menu {
+#mu-doublets {
   display: inline;
   float: left;
   width: 100%;
   padding: 100px 0;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area {
+#mu-doublets .mu-doublets-area {
   display: inline;
   float: left;
   width: 100%;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content {
+#mu-doublets .mu-doublets-area .mu-doublets-content {
   display: inline;
   float: left;
   margin-top: 30px;
   width: 100%;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li {
   display: inline-block;
   float: none;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li a {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   border-radius: 0;
@@ -577,30 +507,30 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:hover,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:focus {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets .active a,
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets .active a:hover,
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets .active a:focus {
   background-color: #FFF;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area {
   display: inline;
   float: left;
   width: 100%;
   padding: 50px 0;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-tab-content-left {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-tab-content-left {
   display: inline;
   float: left;
   padding-right: 15px;
   width: 100%;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-tab-content-right {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-tab-content-right {
   display: inline;
   float: left;
   padding-left: 15px;
   width: 100%;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li {
   border-bottom: 1px dashed #ccc;
   display: inline;
   float: left;
@@ -608,142 +538,142 @@ img {
   padding-bottom: 15px;
   width: 100%;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li:last-child {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
   width: 110px;
   height: 110px;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a img {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a img {
   width: 110px;
   height: 110px;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading {
   font-size: 20px;
   margin-bottom: 10px;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1.5px;
   line-height: 20px;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body p {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body p {
   margin-top: 10px;
   font-size: 14px;
 }
 
 /*==================
-RESERVATION SECTION
+TRIVIA SECTION
 ====================*/
-#mu-reservation {
+#mu-trivia {
   background-color: #222;
   display: inline;
   float: left;
   padding: 100px 0;
   width: 100%;
 }
-#mu-reservation .mu-reservation-area {
+#mu-trivia .mu-trivia-area {
   display: inline;
   float: left;
   width: 100%;
 }
-#mu-reservation .mu-reservation-area .mu-title h2 {
+#mu-trivia .mu-trivia-area .mu-title h2 {
   color: #fff;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content {
+#mu-trivia .mu-trivia-area .mu-trivia-content {
   display: inline;
   float: left;
   margin-top: 20px;
   padding: 0 100px;
   width: 100%;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content h3 {
+#mu-trivia .mu-trivia-area .mu-trivia-content h3 {
   color: #fff;
   display: inline-block;
   padding-bottom: 10px;
   font-weight: bold;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content p {
+#mu-trivia .mu-trivia-area .mu-trivia-content p {
   color: #fff;
   letter-spacing: 0.5px;
   padding: 0 50px;
   text-align: center;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form {
   margin-top: 30px;
   text-align: center;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form .form-control {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form .form-control {
   margin-bottom: 20px;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"],
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"] {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="text"],
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="email"] {
   border-radius: 0;
   color: #000;
   height: 40px;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]:focus,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]:focus {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="text"]:focus,
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="email"]:focus {
   box-shadow: none;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]::-webkit-input-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]::-webkit-input-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="text"]::-webkit-input-placeholder,
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="email"]::-webkit-input-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]:-moz-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]:-moz-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="text"]:-moz-placeholder,
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="email"]:-moz-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]::-moz-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]::-moz-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="text"]::-moz-placeholder,
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="email"]::-moz-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]:-ms-input-placeholder,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]:-ms-input-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="text"]:-ms-input-placeholder,
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="email"]:-ms-input-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form select {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form select {
   border-radius: 0;
   height: 40px;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form select:focus {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form select:focus {
   box-shadow: none;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form select option {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form select option {
   margin-bottom: 10px;
   color: #000;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form textarea {
   border-radius: 0;
   color: #000;
   padding: 10px;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea:focus {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form textarea:focus {
   box-shadow: none;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea::-webkit-input-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form textarea::-webkit-input-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea:-moz-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form textarea:-moz-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea::-moz-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form textarea::-moz-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea:-ms-input-placeholder {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form textarea:-ms-input-placeholder {
   color: #555;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form button[type="submit"] {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form button[type="submit"] {
   border: none;
   margin-top: 20px;
   margin-left: 15px;
@@ -2140,16 +2070,16 @@ RESERVATION SECTION
     font-size: 18px;
   }
 
-  #mu-reservation .mu-reservation-area .mu-reservation-content {
+  #mu-trivia .mu-trivia-area .mu-trivia-content {
     padding: 0 50px;
   }
 
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+  #mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li a {
     font-size: 16px;
     margin: 0 5px;
   }
 
-  #mu-reservation .mu-reservation-area .mu-reservation-content p {
+  #mu-trivia .mu-trivia-area .mu-trivia-content p {
     padding: 0;
   }
 
@@ -2206,7 +2136,7 @@ RESERVATION SECTION
     opacity: 0;
   }
 
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+  #mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li a {
     font-size: 14px;
     margin: 0 2px;
   }
@@ -2283,7 +2213,7 @@ RESERVATION SECTION
     height: 350px;
   }
 
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
+  #mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li {
     margin-bottom: 10px;
   }
   .mu-blog-related-post .mu-blog-related-post-area {   
@@ -2291,7 +2221,7 @@ RESERVATION SECTION
   }
 }
 @media (max-width: 360px) {
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
+  #mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li {
     margin-bottom: 12px;
   }
 
@@ -2299,11 +2229,11 @@ RESERVATION SECTION
     padding: 100px 0 50px;
   }
 
-  #mu-restaurant-menu {
+  #mu-doublets {
     padding-bottom: 0px;
   }
 
-  #mu-reservation .mu-reservation-area .mu-reservation-content {
+  #mu-trivia .mu-trivia-area .mu-trivia-content {
     padding: 0;
   }
 
@@ -2397,14 +2327,14 @@ RESERVATION SECTION
     padding: 0 15px 30px;
   }
 
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
+  #mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
     height: 100px;
     width: 100px;
     margin-right: 10px;
     float: left;
   }
 
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a img {
+  #mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a img {
     height: 100%;
     width: 100%;
   }

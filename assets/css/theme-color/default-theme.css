@@ -59,6 +59,11 @@ Author URI : http://www.markups.io/
 .mu-title .mu-subtitle {
   color: #c1a35f;
 }
+
+.mu-title h2 {
+  border-color: #c1a35f;
+}
+
 .mu-title i {
   color: #c1a35f;
 }
