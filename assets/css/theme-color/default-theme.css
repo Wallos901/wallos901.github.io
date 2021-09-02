@@ -74,39 +74,39 @@ Author URI : http://www.markups.io/
   background-color: #c1a35f;
 }
 
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets {
   border-bottom: 1px solid #c1a35f;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li a {
   background-color: #c1a35f;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:hover, #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:focus {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li a:hover, #mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets li a:focus {
   border-color: #c1a35f #c1a35f transparent;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:hover,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:focus {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets .active a,
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets .active a:hover,
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-doublets .active a:focus {
   color: #c1a35f;
   border-color: #c1a35f #c1a35f transparent;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:hover, #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:focus {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:hover, #mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:focus {
   color: #c1a35f;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
+#mu-doublets .mu-doublets-area .mu-doublets-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
   color: #c1a35f;
 }
 
-#mu-reservation .mu-reservation-area .mu-reservation-content h3 {
+#mu-trivia .mu-trivia-area .mu-trivia-content h3 {
   border-bottom: 2px solid #c1a35f;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="text"]:focus,
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form input[type="email"]:focus {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="text"]:focus,
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form input[type="email"]:focus {
   border-color: #c1a35f;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form select:focus {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form select:focus {
   border-color: #c1a35f;
 }
-#mu-reservation .mu-reservation-area .mu-reservation-content .mu-reservation-form textarea:focus {
+#mu-trivia .mu-trivia-area .mu-trivia-content .mu-trivia-form textarea:focus {
   border-color: #c1a35f;
 }
 
