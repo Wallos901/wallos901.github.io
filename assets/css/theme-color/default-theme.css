@@ -145,14 +145,14 @@ Author URI : http://www.markups.io/
   color: #c1a35f;
 }
 
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info h4 {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-info h4 {
   color: #c1a35f;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social a {
   border: 1px solid #c1a35f;
   color: #c1a35f;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a:hover, #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a:focus {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social a:hover, #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social a:focus {
   background-color: #c1a35f;
 }
 #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-dots li {

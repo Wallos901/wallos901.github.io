@@ -199,9 +199,9 @@ img {
   height: 100%;
 }
 .mu-main-navbar .navbar-header .navbar-brand-small {
-  height: 50px;
+  height: 45px;
   margin-top: 0;
-  width: 50px;
+  width: 45px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -1049,51 +1049,51 @@ TRIVIA SECTION
   text-align: center;
   width: 100%;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li {
   background-color: #f8f8f8;
   display: inline-block;
   margin: 0 5px;
   width: 22%;
   overflow: hidden;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li:first-child {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li:first-child {
   margin-left: 0;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li:last-child {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li:last-child {
   margin-right: 0;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef {
   display: inline;
   float: left;
   width: 100%;
   position: relative;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef:hover .mu-single-chef-social {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef:hover .mu-single-chef-social {
   bottom: 0;
   opacity: 1;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-img {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-img {
   display: inline;
   float: left;
   width: 100%;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-img img {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-img img {
   width: 100%;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-info {
   display: inline;
   float: left;
   padding: 10px 10px 20px;
   width: 100%;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info h4 {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-info h4 {
   margin-bottom: 5px;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info span {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-info span {
   font-size: 14px;
   letter-spacing: 0.5px;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social {
   background-color: #000;
   position: absolute;
   bottom: -100%;
@@ -1108,7 +1108,7 @@ TRIVIA SECTION
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social a {
   display: inline-block;
   margin: 0 5px;
   padding: 5px;
@@ -1120,7 +1120,7 @@ TRIVIA SECTION
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a:hover, #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a:focus {
+#mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social a:hover, #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social a:focus {
   color: #fff;
 }
 #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-dots {
@@ -1441,7 +1441,7 @@ TRIVIA SECTION
     padding: 0 50px;
   }
 
-  #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social {
+  #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social {
     padding: 23px 10px;
   }
 
@@ -1463,9 +1463,9 @@ TRIVIA SECTION
   }
 
   .mu-main-navbar .navbar-header .navbar-brand-small {
-    height: 25px;
-    margin-top: 13px;
-    width: 110px;
+    height: 45px;
+    margin-top: 0px;
+    width: 30px;
   }
 
   .mu-abtus-slider .slick-slide img {
@@ -1609,7 +1609,7 @@ TRIVIA SECTION
     width: 30%;
   }
 
-  #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a {
+  #mu-chef .mu-chef-area .mu-chef-content .mu-chef-nav li .mu-single-chef .mu-single-chef-social a {
     margin: 0 3px;
     padding: 3px 0;
     width: 30px;
